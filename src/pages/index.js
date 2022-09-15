@@ -1,7 +1,8 @@
+import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 
 const Home = () => {
-  return <div>Hello world</div>;
+  return <Layout></Layout>;
 };
 
 export default Home;
