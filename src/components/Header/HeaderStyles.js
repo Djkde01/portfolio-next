@@ -1,14 +1,14 @@
 import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.header`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
   padding-top: 2rem;
-
+  align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -26,7 +26,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
-export const Div2 = styled.div`
+export const NavMenu = styled.ul`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
@@ -34,7 +34,19 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
-export const Div3 = styled.div`
+
+export const LogoIcon = styled.a`
+  display: flex;
+  align-items: "center";
+  color: "white";
+`;
+
+export const Span = styled.span`
+  font-size: 2rem;
+  display: inline-flex;
+  align-items: center;
+`;
+export const ContactLinksContainer = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
