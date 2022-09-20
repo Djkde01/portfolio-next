@@ -24,13 +24,13 @@ const Header = () => (
     </Div1>
     <NavMenu>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#blog">
+          <NavLink>Blog</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#blog">
-          <NavLink>Blog</NavLink>
+        <Link href="#services">
+          <NavLink>Services</NavLink>
         </Link>
       </li>
       <li>
