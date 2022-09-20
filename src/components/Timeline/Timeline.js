@@ -25,7 +25,7 @@ const Timeline = () => (
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="white" />
-        <stop offset="0.79478" stop-color="white" stop-opacity="0" />
+        <stop offset="0.79478" stopColor="white" stopOpacity="0" />
       </linearGradient>
     </defs>
   </CarouselItemImg>

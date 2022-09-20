@@ -7,10 +7,11 @@ import {
   NavMenu,
   NavLink,
   ContactLinksContainer,
-  SocialIcons,
   Span,
   LogoIcon,
 } from "./HeaderStyles";
+
+import { SocialIcons } from "../../styles/GlobalComponents";
 
 const Header = () => (
   <Container>
