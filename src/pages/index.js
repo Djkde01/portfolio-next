@@ -1,3 +1,4 @@
+import About from "../components/About/About";
 import BackgroundAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
@@ -13,6 +14,7 @@ const Home = () => {
         <Hero />
         <BackgroundAnimation />
       </Section>
+      <About />
       <Projects />
       <Services />
     </Layout>

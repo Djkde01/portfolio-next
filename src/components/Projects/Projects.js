@@ -19,9 +19,10 @@ import {
 } from "./ProjectsStyles";
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section id="projects">
     <SectionDivider />
-    <SectionTitle main>Projects</SectionTitle>
+    <br />
+    <SectionTitle>Projects</SectionTitle>
     <GridContainer>
       {projects.map(
         ({ id, image, title, description, tags, visit, source }) => (
