@@ -24,6 +24,11 @@ const Header = () => (
     </Div1>
     <NavMenu>
       <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#blog">
           <NavLink>Blog</NavLink>
         </Link>
