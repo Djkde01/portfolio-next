@@ -26,5 +26,6 @@ jobs:
         with:
           server: ftp.djkde.com
           port: 21
+          local-dir: ./out/
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
