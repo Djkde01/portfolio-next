@@ -42,9 +42,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: 2016, text: "Wrote my first line of code in PHP" },
+  { year: 2020, text: "Built my first project with Reactjs" },
+  { year: 2021, text: "Started in my first job as Web Developer" },
+  { year: 2021, text: "Participated in PlatziConf as igniter" },
+  { year: 2022, text: "Recorded my first course in Platzi" },
+  { year: 2022, text: "Founded with 2 more students Backbone" },
 ];
