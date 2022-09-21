@@ -49,3 +49,34 @@ export const TimeLineData = [
   { year: 2022, text: "Recorded my first course in Platzi" },
   { year: 2022, text: "Founded with 2 more students Backbone" },
 ];
+
+export const BlogData = [
+  {
+    id: 1,
+    title: "Blog title",
+    slug: "blog-title",
+    description:
+      "in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor",
+  },
+  {
+    id: 2,
+    title: "Blog title 01",
+    slug: "blog-title-1",
+    description:
+      "in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor",
+  },
+  {
+    id: 3,
+    title: "Blog title 02",
+    slug: "blog-title-2",
+    description:
+      "in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor",
+  },
+  {
+    id: 4,
+    title: "Blog title 03",
+    slug: "blog-title-3",
+    description:
+      "in nisl nisi scelerisque eu ultrices vitae auctor eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida neque convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam aliquam sem et tortor",
+  },
+];
