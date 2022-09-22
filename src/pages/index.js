@@ -1,5 +1,6 @@
 import About from "../components/About/About";
 import BackgroundAnimation from "../components/BackgroundAnimation/BackgroundAnimation";
+import Blog from "../components/Blog/Blog";
 import Hero from "../components/Hero/Hero";
 import Projects from "../components/Projects/Projects";
 import Services from "../components/Services/Services";
@@ -15,6 +16,7 @@ const Home = () => {
         <BackgroundAnimation />
       </Section>
       <About />
+      <Blog />
       <Projects />
       <Services />
     </Layout>

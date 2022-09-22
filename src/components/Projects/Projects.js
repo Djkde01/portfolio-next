@@ -3,18 +3,18 @@ import {
   Section,
   SectionDivider,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import {
   BlogCard,
-  CardInfo,
-  ExternalLinks,
-  GridContainer,
   HeaderThree,
   Hr,
+  CardInfo,
+  TitleContent,
+} from "../../styles/GlobalComponents";
+import {
+  ExternalLinks,
+  GridContainer,
   Img,
   Tag,
   TagList,
-  TitleContent,
   UtilityList,
 } from "./ProjectsStyles";
 
