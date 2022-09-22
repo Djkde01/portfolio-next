@@ -22,7 +22,7 @@ const Blog = () => (
       {BlogData.map(({ id, title, slug, description }) => (
         <BlogCard key={id}>
           <TitleContent>
-            <HeaderThree isTitle>{title}</HeaderThree>
+            <HeaderThree>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo nopadding>{description}</CardInfo>

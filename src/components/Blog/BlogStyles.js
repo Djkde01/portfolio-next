@@ -42,6 +42,7 @@ export const BlogLinks = styled.div`
 
 export const BlogButton = styled.a`
   border: medium none;
+  grid-area: 1 / 2 / 2 / 3;
   position: relative;
   padding: 10px 20px;
   background: linear-gradient(270deg, #13adc7 0%, #945dd6 100%);
@@ -52,6 +53,10 @@ export const BlogButton = styled.a`
   font-size: 0.8em;
   text-align: center;
   z-index: 1;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    grid-area: 1/1/2/4;
+  }
 
   &::before {
     content: "";
