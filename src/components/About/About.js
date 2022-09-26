@@ -65,8 +65,10 @@ const About = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
-        Some brief description about me, this have to explain who am I, what I
-        am doing and that thing that makes me unique
+        Also known as Djkde, web developer with JavaScript and Typescript,
+        mainly with React.js on the front-end and Node.js on the back-end. An
+        active member of learning communities, both as a participant, speaker,
+        or organizer.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

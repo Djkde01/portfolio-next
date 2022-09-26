@@ -8,8 +8,6 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 
-import Button from "../../styles/GlobalComponents/Button";
-
 import { BlogData } from "../../constants/constants";
 import { BlogContainer, BlogCard, BlogButton, BlogLinks } from "./BlogStyles";
 
